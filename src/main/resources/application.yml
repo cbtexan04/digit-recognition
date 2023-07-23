@@ -1,0 +1,14 @@
+logging:
+  level:
+    root: INFO
+
+config:
+  toggles:
+    enable-training: true
+  network:
+    epochs: 500
+    learning-rate: 0.001
+    hidden-layer-size: 64
+  files:
+    training-file-name: train.csv
+    weights-file-name: weights.csv
